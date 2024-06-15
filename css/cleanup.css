@@ -1,1 +1,25 @@
-/* write your override styles here */
+write your override styles here
+#wall .tag-1 {
+    display: none;
+    text-align: center;
+    color: green;
+}
+
+#wall > div {
+    display: none;
+    position: absolute;
+    color: aqua;
+}
+
+#tag-2 {
+    display: none;
+    position: absolute;
+    margin: 3px;
+}
+
+#wall + #tag-2{
+    display: none;
+    position: absolute;
+    padding: 20px;
+
+}
